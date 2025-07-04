@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metas -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="keywords" content="Evoglad, SaaS tools, CRM, chatbot, identity management, WhatsApp API" />
+  <meta name="description"
+    content="Evoglad offers powerful SaaS tools for business communication, events, CRM, and more." />
+  <meta name="author" content="Evoglad Team" />
+
+  <!-- Title  -->
+  <title>Evoglad | Engage. Automate. Grow.</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/evoglad_fav.png" title="Favicon" sizes="16x16" />
+
+  <!-- ====== bootstrap icons cdn ====== -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- bootstrap 5 -->
+  <link rel="stylesheet" href="assets/css/lib/bootstrap.min.css" />
+
+  <!-- ====== font family ====== -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/lib/all.min.css" />
+  <link rel="stylesheet" href="assets/css/lib/animate.css" />
+  <link rel="stylesheet" href="assets/css/lib/jquery.fancybox.css" />
+  <link rel="stylesheet" href="assets/css/lib/lity.css" />
+  <link rel="stylesheet" href="assets/css/lib/swiper.min.css" />
+  <!-- ====== global style ====== -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- ====== start loading page ====== -->
+  <!-- <div id="preloader">
+    </div> -->
+  <!-- ---------- loader ---------- -->
+  <div id="preloader">
+    <div id="loading-wrapper" class="show">
+      <div id="loading-text">
+        <img src="assets/img/evoglad_fav.png" alt="" />
+      </div>
+      <div id="loading-content"></div>
+    </div>
+  </div>
+  <!-- ====== end loading page ====== -->
+
+  <!-- ====== start navbar ====== -->
+  <nav class="navbar navbar-expand-lg navbar-dark style-2 position-absolute w-100 p-0">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logos/evoglad_new_logo.png" alt="evoglad_logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link active" href="index.html"> HOME </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#our-products"> Our Products </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#benefits"> BENEFITS </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us"> ABOUT US </a>
+          </li>
+        </ul>
+      </div>
+      <a href="#request-consultation" class="btn sm-butn border text-white radius-9 hover-darkBlue">
+        <span>Request a Demo</span>
+      </a>
+    </div>
+  </nav>
+  <!-- ====== end navbar ====== -->
+
+  <!-- ====== start header ====== -->
+<!-- Header section styled using 'style-2' class and hides overflow to contain floating shapes visually -->
+<header class="style-2 overflow-hidden">
+
+  <!-- Decorative background shapes that add a dynamic floating visual effect -->
+  <div class="floating-shape"></div>
+  <div class="floating-shape"></div>
+  <div class="floating-shape"></div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- Left column: Contains the headline, description, and CTA buttons -->
+      <div class="col-lg-6">
+        <div class="content text-center text-light text-capitalize">
+          <div class="top_info mt-md-5">
+            <!-- Main headline to introduce the value proposition -->
+            <h1>Powering Digital Transformation with Smart IT platforms</h1>
+
+            <!-- Supporting paragraph to explain offerings and benefits -->
+            <p>
+              Explore our powerful suite of products for communication,
+              identity, events, CRM, and more. Transform your business with
+              cutting-edge technology solutions.
+            </p>
+
+            <!-- Call-to-action buttons for demo request and product exploration -->
+            <div class="header-btn">
+              <!-- Smooth-scroll link to the demo request section -->
+              <a href="#request-consultation" class="btn btn-white border radius-9 mt-70">
+                <span>Request A Demo</span>
+              </a>
+
+              <!-- Button styled differently for visual contrast, links to product section -->
+              <a href="#our-products" class="btn sm-butn border text-white radius-9 mt-70 hover-darkBlue">
+                <span>Explore Products</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column: Visual representation using feature cards and stats -->
+      <div class="col-lg-6 mt-3">
+        <div class="hero-visual">
+          <div class="hero-mockup-container">
+            <div class="hero-mockup-screen">
+              <div class="hero-mockup-content">
+                
+                <!-- Individual feature cards that showcase product offerings visually -->
+                <div class="hero-feature-card">
+                  <div class="hero-feature-icon">
+                    <i class="fas fa-comments"></i>
+                  </div>
+                  <div class="hero-feature-title">Communication</div>
+                  <div class="hero-feature-desc">
+                    Smart messaging & collaboration
+                  </div>
+                </div>
+
+                <div class="hero-feature-card">
+                  <div class="hero-feature-icon">
+                    <i class="fas fa-user-shield"></i>
+                  </div>
+                  <div class="hero-feature-title">Identity</div>
+                  <div class="hero-feature-desc">
+                    Secure access management
+                  </div>
+                </div>
+
+                <div class="hero-feature-card">
+                  <div class="hero-feature-icon">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <div class="hero-feature-title">CRM</div>
+                  <div class="hero-feature-desc">
+                    Customer relationship tools
+                  </div>
+                </div>
+
+                <div class="hero-feature-card">
+                  <div class="hero-feature-icon">
+                    <i class="fas fa-cogs"></i>
+                  </div>
+                  <div class="hero-feature-title">Automation</div>
+                  <div class="hero-feature-desc">Workflow optimization</div>
+                </div>
+              </div>
+
+              <!-- Performance statistics to build trust and credibility -->
+              <div class="hero-stats-row">
+                <div class="hero-stat-item">
+                  <div class="hero-stat-number">99.9%</div>
+                  <div class="hero-stat-label">Uptime</div>
+                </div>
+
+                <div class="hero-stat-item">
+                  <div class="hero-stat-number">500K+</div>
+                  <div class="hero-stat-label">Users</div>
+                </div>
+
+                <div class="hero-stat-item">
+                  <div class="hero-stat-number">24/7</div>
+                  <div class="hero-stat-label">Support</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trusted brand logos section for social proof -->
+      <div class="brands mt-150 mb-60 text-center">
+
+        <!-- ecBot logo with animation and external link -->
+        <a href="https://ecbot.app/" class="logo wow fadeInUp" target="_blank" data-wow-delay="0s">
+          <img src="assets/img/about/about_logos/ecBot.svg" alt="ecBot_logo" />
+        </a>
+
+        <!-- ecAuth logo with delay-based animation -->
+        <a href="https://ecauth.com/" class="logo wow fadeInUp" target="_blank" data-wow-delay="0.2s">
+          <img src="assets/img/about/about_logos/ecAuth.svg" alt="ecAuth logo" />
+        </a>
+
+        <!-- Additional logos using increasing animation delays for staggered reveal effect -->
+        <a href="#" class="logo wow fadeInUp" data-wow-delay="0.4s">
+          <img src="assets/img/about/about_logos/ecProfile.svg" alt="ecProfile logo" />
+        </a>
+
+        <a href="#" class="logo wow fadeInUp" data-wow-delay="0.6s">
+          <img src="assets/img/about/about_logos/ecCRM.svg" alt="ecCRM logo" />
+        </a>
+
+        <a href="#" class="logo wow fadeInUp" data-wow-delay="0.8s">
+          <img src="assets/img/about/about_logos/ecEvent.svg" alt="evEvent logo" />
+        </a>
+
+        <a href="#" class="logo wow fadeInUp" data-wow-delay="1s">
+          <img src="assets/img/about/about_logos/ecWriter.svg" alt="ecWriter logo" />
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- ====== end header ====== -->
+
+  <!--Contents-->
+  <main>
+    <!-- ====== start services ====== -->
+<!-- Products section showcasing integrated IT solutions offered by evoglad -->
+<section id="our-products" class="services_projects section-padding">
+  <div class="container">
+    
+    <!-- Section heading and intro text -->
+    <div class="section-head mb-30 text-center">
+      <h2 class="text-white fs-1 lh-1 mb-20">
+        Unifying Business Communication, Identity, and Operations
+      </h2>
+
+      <!-- Subheading: Brief explanation about what this suite offers -->
+      <div class="row mb-70">
+        <div class="col col-lg-8 mx-auto">
+          <h5 class="text-white text-wrap">
+            At evoglad, we offer a powerful suite of integrated IT
+            products designed to streamline how businesses communicate,
+            authenticate, and operate.
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Swiper carousel to display each product card in a slider format -->
+    <div class="works_slider position-relative">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+          <!-- === Product 1: ecBot === -->
+          <div class="swiper-slide">
+            <div class="service-box text-white text-center px-4 py-2 brd-light border-end style-2">
+              <!-- Product icon -->
+              <div class="icon mb-30">
+                <img src="assets/img/icons/serv_icons/chatbot.svg" alt="chatbot icon" />
+              </div>
+              <div class="info">
+                <h4>ecBot – Multi Channel Engagement Platform</h4>
+                <p class="mt-20 mb-30 px-3">
+                  Engage your customers where they are — on WhatsApp,
+                  Facebook, Instagram, Telegram, and your website —
+                  through intelligent chatbots, live chat, and automated
+                  campaigns
+                </p>
+                <!-- Feature title -->
+                <div class="flex justify-content-center">
+                  <h5>Features</h5>
+                </div>
+                <!-- Feature tags for this product -->
+                <div class="tags d-flex flex-wrap justify-content-center mt-10 style-2">
+                  <p>WhatsApp Business API integration</p>
+                  <p>Smart Chatbots</p>
+                  <p>Unified inbox for teams</p>
+                  <p>Contact segmentation</p>
+                  <p>campaign tracking</p>
+                  <p>Visual Flow Builder</p>
+                  <p>Broadcasting</p>
+                  <p>Bot Automation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- === Product 2: ecAuth === -->
+          <div class="swiper-slide">
+            <div class="service-box text-white text-center px-4 py-2 brd-light border-end style-2">
+              <div class="icon mb-30">
+                <img src="assets/img/icons/serv_icons/shield.svg" alt="shield icon" />
+              </div>
+              <div class="info">
+                <h4>ecAuth – Central Authentication & Access Platform</h4>
+                <p class="mt-20 mb-30 px-3">
+                  Secure your apps with Single Sign-On (SSO), OAuth2, 2FA,
+                  and Passwordless (FIDO2), TOTP, email/OTP login. Manage
+                  users, roles, and multi-app authentication from one
+                  place.
+                </p>
+                <div class="flex justify-content-center">
+                  <h5>Features</h5>
+                </div>
+                <div class="tags d-flex flex-wrap justify-content-center mt-10 style-2">
+                  <p>Central dashboard</p>
+                  <p>Role & Permission management</p>
+                  <p>Multi-tenant support</p>
+                  <p>Integration with web/mobile/legacy systems</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- === Product 3: ecProfile === -->
+          <div class="swiper-slide">
+            <div class="service-box text-white text-center px-4 py-2 brd-light border-end style-2">
+              <div class="icon mb-30">
+                <img src="assets/img/icons/serv_icons/id_card.svg" alt="id card icon" />
+              </div>
+              <div class="info">
+                <h4>
+                  ecProfile – Dynamic Digital Profiles (with NFC Integration)
+                </h4>
+                <p class="mt-20 mb-30 px-3">
+                  Create smart digital profiles accessible via NFC cards,
+                  QR code & Web Site. Build dynamic, shareable profiles
+                  for individuals or organizations. Tap your NFC card or
+                  scan a QR code to instantly connect, showcase, or share
+                  your identity.
+                </p>
+                <div class="flex justify-content-center">
+                  <h5>Features</h5>
+                </div>
+                <div class="tags d-flex flex-wrap justify-content-center mt-10 style-2">
+                  <p>Smart profile pages</p>
+                  <p>Analytics on card scans</p>
+                  <p>Digital visiting cards</p>
+                  <p>Custom branding and themes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- === Product 4: ecCRM === -->
+          <div class="swiper-slide">
+            <div class="service-box text-white text-center px-4 py-2 brd-light border-end style-2">
+              <div class="icon mb-30">
+                <img src="assets/img/icons/serv_icons/crm.svg" alt="crm icon" />
+              </div>
+              <div class="info">
+                <h4>ecCRM – CRM + WhatsApp API Integration</h4>
+                <p class="mt-20 mb-30 px-3">
+                  Manage leads, clients, and follow-ups with CRM tools
+                  enhanced by real-time WhatsApp communication. Send
+                  reminders, updates, and campaigns — directly from your
+                  CRM.
+                </p>
+                <div class="flex justify-content-center">
+                  <h5>Features</h5>
+                </div>
+                <div class="tags d-flex flex-wrap justify-content-center mt-10 style-2">
+                  <p>Lead and customer management</p>
+                  <p>WhatsApp campaigns from CRM</p>
+                  <p>Templates, automation rules, analytics</p>
+                  <p>Integration with ecBot and eCommerce tools</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- === Product 5: ecEvent === -->
+          <div class="swiper-slide">
+            <div class="service-box text-white text-center px-4 py-2 brd-light border-end style-2">
+              <div class="icon mb-30">
+                <img src="assets/img/icons/serv_icons/calender.svg" alt="calender_icon" />
+              </div>
+              <div class="info">
+                <h4>ecEvent – Event Discovery & Management Portal</h4>
+                <p class="mt-20 mb-30 px-3">
+                  Create, discover, promote, and manage events with RSVP,
+                  booking, and live updates. Perfect for corporate events,
+                  webinars, educational drives, or public gatherings.
+                  Manage Meeting with scheduling, invitation , reminders &
+                  notes
+                </p>
+                <div class="flex justify-content-center">
+                  <h5>Features</h5>
+                </div>
+                <div class="tags d-flex flex-wrap justify-content-center mt-10 style-2">
+                  <p>Location-based search</p>
+                  <p>RSVP & booking engine</p>
+                  <p>Event marketing tools</p>
+                  <p>Analytics and engagement tracking</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Swiper pagination styled as circles -->
+      <div class="pagination_circle position-relative pagi_white mt-70">
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- Section transition: Introduces the next part showing business benefits -->
+    <div class="section-head mb-30 text-center">
+      <h2 class="text-white fs-1 lh-1 mb-70 pt-100">
+        How It Helps Your Business
+      </h2>
+    </div>
+
+    <!-- Benefits slider: visually explains the impact of the platform -->
+    <div class="services_slider position-relative">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+              <!-- Each slide explains one specific benefit with visual support -->
+              <div class="swiper-slide">
+                <div class="work_card text-center d-block">
+                  <div class="img img-cover radius-6 overflow-hidden imgrotate-scale-hover">
+                    <img src="assets/img/projects/Simplifies IT .png" alt="ai image" />
+                  </div>
+                  <div class="info">
+                    <h5 class="text-white mt-4">
+                      <strong>Simplifies IT complexity</strong> 
+                      <span>by providing a unified ecosystem of tools.</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="work_card text-center d-block">
+                  <div class="img img-cover radius-6 overflow-hidden imgrotate-scale-hover">
+                    <img src="assets/img/projects/Increases team .png" alt="ai image2" />
+                  </div>
+                  <div class="info">
+                    <h5 class="text-white mt-4">
+                      <strong>Increases team efficiency</strong> 
+                      <span>through smart automation and seamless integration.</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="work_card text-center d-block">
+                  <div class="img img-cover radius-6 overflow-hidden imgrotate-scale-hover">
+                    <img src="assets/img/projects/Boosts customer.png" alt="ai image3" />
+                  </div>
+                  <div class="info">
+                    <h5 class="text-white mt-4">
+                      <strong>Boosts customer engagement</strong> 
+                      <span>with proactive messaging and chatbots.</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="work_card text-center d-block">
+                  <div class="img img-cover radius-6 overflow-hidden imgrotate-scale-hover">
+                    <img src="assets/img/projects/data_security .png" alt="ai image4" />
+                  </div>
+                  <div class="info">
+                    <h5 class="text-white mt-4">
+                      <strong>Improves data security</strong>
+                      <span> with centralized identity and access control.</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="work_card text-center d-block">
+                  <div class="img img-cover radius-6 overflow-hidden imgrotate-scale-hover">
+                    <img src="assets/img/projects/Supports_scalability.png" alt="ai image5" />
+                  </div>
+                  <div class="info">
+                    <h5 class="text-white mt-4">
+                      <strong>Supports scalability</strong> 
+                      <span>— grow from startup to enterprise with plug-and-play modules.</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="work_card text-center d-block">
+                  <div class="img img-cover radius-6 overflow-hidden imgrotate-scale-hover">
+                    <img src="assets/img/projects/Enables_personalization.png" alt="ai image6" />
+                  </div>
+                  <div class="info">
+                    <h5 class="text-white mt-4">
+                      <strong>Enables personalization</strong> 
+                      <span>of customer and staff experiences with dynamic profiles and messaging.</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation arrows for the slider -->
+      <div class="swiper-button-next radius-50 bg-transparent border brd-light"></div>
+      <div class="swiper-button-prev radius-50 bg-transparent border brd-light"></div>
+    </div>
+  </div>
+</section>
+
+    <!-- ====== end services ====== -->
+
+    <!-- ====== start choose-us====== -->
+<!-- Benefits section: Highlights how the platform helps individual users personally -->
+<section id="benefits" class="choose-us style-2 border-top bg-darkBlue brd-light section-padding">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="section-head mb-30 text-center">
+      <h2 class="text-white fs-1 lh-1 mb-70">
+        How It Benefits You Personally
+      </h2>
+    </div>
+
+    <!-- Two-column layout: image on left, benefits list on right -->
+    <div class="row align-items-center">
+      
+      <!-- Left column: visual element to complement the content -->
+      <div class="col-lg-6">
+        <div class="img pe-lg-5">
+          <img src="assets/img/choose_us/circles.png" alt="circle icon" />
+        </div>
+      </div>
+
+      <!-- Right column: personalized benefits for end-users -->
+      <div class="col-lg-6">
+        <div class="info">
+          <ul>
+
+            <!-- Benefit 1: Personal branding with smart digital profiles -->
+            <li class="d-flex mb-30">
+              <div class="icon me-4 flex-shrink-0">
+                <img src="assets/img/icons/how_it_benefits/id_card.svg" alt="id card icon" />
+              </div>
+              <div class="inf">
+                <h5 class="text-white text-capitalize mb-2">
+                  Build Your Professional Identity
+                </h5>
+                <small class="text-white op-8">
+                  With smart profile cards (ecProfile), share your contact, portfolio, <br> and company info with a tap.
+                </small>
+              </div>
+            </li>
+
+            <!-- Benefit 2: Customer relationship and follow-ups made easier -->
+            <li class="d-flex mb-30">
+              <div class="icon me-4 flex-shrink-0">
+                <img src="assets/img/icons/how_it_benefits/message_circle.svg" alt="message circle icon" />
+              </div>
+              <div class="inf">
+                <h5 class="text-white text-capitalize mb-2">
+                  Stay Connected with Customers
+                </h5>
+                <small class="text-white op-8">
+                  Use WhatsApp-integrated CRM — never miss a follow-up again.
+                </small>
+              </div>
+            </li>
+
+            <!-- Benefit 3: One-login access across services for convenience -->
+            <li class="d-flex mb-30">
+              <div class="icon me-4 flex-shrink-0">
+                <img src="assets/img/icons/how_it_benefits/lock.svg" alt="lock icon" />
+              </div>
+              <div class="inf">
+                <h5 class="text-white text-capitalize mb-2">
+                  Access All Your Tools with One Login
+                </h5>
+                <small class="text-white op-8">
+                  Manage your apps and data securely with ecAuth.
+                </small>
+              </div>
+            </li>
+
+            <!-- Benefit 4: Event promotion made simple for individuals and orgs -->
+            <li class="d-flex mb-30">
+              <div class="icon me-4 flex-shrink-0">
+                <img src="assets/img/icons/how_it_benefits/megaphone.svg" alt="megaphone icon" />
+              </div>
+              <div class="inf">
+                <h5 class="text-white text-capitalize mb-2">
+                  Promote Your Events Easily
+                </h5>
+                <small class="text-white op-8">
+                  Whether you're a freelancer, trainer, or organization —<br>
+                  reach your audience instantly.
+                </small>
+              </div>
+            </li>
+
+            <!-- Benefit 5: Modern networking using NFC and live profiles -->
+            <li class="d-flex mb-30">
+              <div class="icon me-4 flex-shrink-0">
+                <img src="assets/img/icons/how_it_benefits/handshake.svg" alt="handshake icon" />
+              </div>
+              <div class="inf">
+                <h5 class="text-white text-capitalize mb-2">
+                  Network Smarter
+                </h5>
+                <small class="text-white op-8">
+                  Impress with NFC-based business cards and live link-sharing profiles.
+                </small>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom section with key business stats to build trust -->
+    <div class="choose-numbers mt-80">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="row">
+
+            <!-- Stat 1: Number of tools in the ecosystem -->
+            <div class="col-lg-4">
+              <div class="num-item">
+                <div class="num">
+                  <span class="counter"> 6 </span>
+                  <span>+</span>
+                </div>
+                <div class="inf">
+                  Smart Business Tools in<br class="d-none d-md-block" />
+                  1 Ecosystem
+                </div>
+              </div>
+            </div>
+
+            <!-- Stat 2: Uptime assurance -->
+            <div class="col-lg-4">
+              <div class="num-item">
+                <div class="num">
+                  <span class="counter"> 99.9% </span>
+                </div>
+                <div class="inf">
+                  Uptime with<br class="d-none d-md-block" />
+                  Enterprise-Grade Security
+                </div>
+              </div>
+            </div>
+
+            <!-- Stat 3: Operational efficiency boost -->
+            <div class="col-lg-4">
+              <div class="num-item">
+                <div class="num">
+                  <span class="counter"> 5 </span>
+                  <span>x</span>
+                </div>
+                <div class="inf">
+                  Boost in <br class="d-none d-md-block" />
+                  Operational Efficiency
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- ====== end choose-us====== -->
+
+    <!-- ====== start about us section ====== -->
+<!-- About Us section: Introduces the company, its vision, and mission -->
+<section id="about-us" class="reviews style-2 border-top brd-light section-padding bg-darkBlue">
+  <div class="container">
+
+    <!-- Section header with a short, impactful tagline and a main title -->
+    <div class="section-head mb-5 text-center">
+      <div class="reviews-badge text-white">
+        <!-- A simple trust-building tagline with a star icon for emphasis -->
+        <i class="fas fa-star me-2"></i>Built for trust. Designed for scale. Backed by intelligence
+      </div>
+      <h2 class="text-white fs-1 lh-1 mb-20">About Us</h2>
+    </div>
+
+    <!-- Swiper slider wrapper (even though there's currently only one slide) -->
+    <div class="">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+          <!-- First slide: Contains the About text and Mission -->
+          <div class="swiper-slide">
+            <div class="row justify-content-center">
+
+              <!-- Main company description block -->
+              <div class="col-lg-7">
+                <div class="text-center style-2">
+                  <h5 class="text-white lh-4">
+                    <!-- Short company bio written in an engaging and informative tone -->
+                    We are building the next generation of smart, scalable
+                    IT platforms that unify communication, identity, and
+                    operations for modern businesses. Founded by a team of
+                    experienced technologists and product strategists, we
+                    specialize in creating modular digital solutions that
+                    empower companies to engage their audience, streamline
+                    workflows, and scale securely — all from a single,
+                    integrated ecosystem.
+                  </h5>
+                </div>
+              </div>
+
+              <!-- Mission statement: Clearly defined goal of the organization -->
+              <div class="reviews-mission-section">
+                <h2 class="reviews-mission-title">
+                  <i class="fas fa-bullseye me-3"></i>Our Mission
+                </h2>
+                <p class="reviews-mission-description">
+                  Unifying business communication, identity, and
+                  operations into a single, intelligent platform that
+                  empowers organizations to thrive in the digital age.
+                </p>
+              </div>
+
+            </div> <!-- end row -->
+          </div> <!-- end swiper-slide -->
+
+        </div> <!-- end swiper-wrapper -->
+      </div> <!-- end swiper-container -->
+    </div> <!-- end swiper outer container -->
+
+  </div> <!-- end container -->
+
+  <!-- Decorative SVG shapes in the background for design aesthetics -->
+  <img src="assets/img/review/rev_l.svg" alt="background patter image" class="rev_l" />
+  <img src="assets/img/review/rev_r.svg" alt="background patter image2" class="rev_r" />
+
+</section>
+
+    <!-- ====== end reviews ====== -->
+
+    <!-- ====== start contact ====== -->
+<!-- Contact Section: Allows users to reach out for a free consultation -->
+<section id="request-consultation" class="contact style-2 bg-darkBlue pt-70 pb-70">
+  <div class="container">
+
+    <!-- Section header: introduces the purpose of this block -->
+    <div class="section-head text-center mb-60">
+      <h6 class="text-light">Contact Us</h6>
+      <h2 class="text-white">
+        Request Free <span class="fw-normal">Consultation</span>
+      </h2>
+    </div>
+
+    <!-- Main content row: split into contact info (left) and form (right) -->
+    <div class="row justify-content-between">
+
+      <!-- Left column: Static company contact details -->
+      <div class="col-lg-5 mb-4">
+        <div class="contact_info text-white">
+          <p class="mb-1">Evoglad Private Ltd</p>
+          <h4 class="mb-3">+91 77369 12103</h4>
+          <ul class="list-unstyled">
+            <li>
+              <strong>Address:</strong> Evoglad Private Ltd, Kannur, Kerala, India
+            </li>
+            <li><strong>Email:</strong> support@evoglad.com</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right column: Functional contact form that submits data via POST -->
+      <div class="col-lg-6">
+        <form class="contact_form" action="contact.php" method="post">
+          <div class="row gx-3">
+
+            <!-- Name input -->
+            <div class="col-md-6">
+              <div class="form-group mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Your Name *" required />
+              </div>
+            </div>
+
+            <!-- Email input -->
+            <div class="col-md-6">
+              <div class="form-group mb-3">
+                <input type="email" name="email" class="form-control" placeholder="Email Address *" required />
+              </div>
+            </div>
+
+            <!-- Subject input -->
+            <div class="col-12">
+              <div class="form-group mb-3">
+                <input type="text" name="subject" class="form-control" placeholder="Subject" />
+              </div>
+
+              <!-- Message textarea -->
+              <div class="form-group mb-3">
+                <textarea name="message" rows="4" class="form-control" placeholder="Your Message *" required></textarea>
+              </div>
+
+              <!-- Terms & conditions checkbox -->
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="agreeTerms" required />
+                <label class="form-check-label text-light small" for="agreeTerms">
+                  By submitting, I agree to the
+                  <a href="termsofservice.html" class="text-decoration-underline text-light">Terms & Conditions</a>.
+                </label>
+              </div>
+
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-light radius-9">
+                Send Message
+              </button>
+            </div>
+
+          </div> <!-- end row -->
+        </form>
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+
+  <!-- Decorative background image for visual enhancement -->
+  <img src="assets/img/global2.png" alt="globe pattern image" class="global_2" />
+</section>
+
+
+    <!-- ====== end contact ====== -->
+  </main>
+  <!--End-Contents-->
+
+  <!-- ====== start footer ====== -->
+<!-- Footer Section: Contains company branding, navigation links, and social icons -->
+<footer class="style-2 pt-80 pb-60 bg-darkBlue border-top brd-light text-white">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left Column: Company logo -->
+      <div class="col-lg-3 col-sm-6">
+        <div class="foot_logo">
+          <img src="assets/img/logos/evoglad_new_logo.png" alt="evoglad logo" />
+        </div>
+      </div>
+
+      <!-- Middle Column: Navigation links (center-aligned) -->
+      <div class="col-lg-6 mx-auto">
+        <div class="foot_links text-center small">
+          <!-- Internal anchor links and essential pages -->
+          <a href="index.html" class="mx-3"> Home </a>
+          <a href="#our-products" class="mx-3"> Our Products </a>
+          <a href="#benefits" class="mx-3"> Benefits </a>
+          <a href="termsofservice.html" class="mx-3"> Terms of Service </a>
+          <a href="privacypolicy.html" class="mx-3"> Privacy Policy </a>
+        </div>
+      </div>
+
+      <!-- Right Column: Social media icons with hover and border effects -->
+      <div class="col-lg-3 col-sm-6 text-end">
+        <div class="socail-icons">
+          <!-- Twitter icon -->
+          <a href="#"
+            class="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center">
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <!-- Facebook icon -->
+          <a href="#"
+            class="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+
+          <!-- LinkedIn icon -->
+          <a href="#"
+            class="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+
+          <!-- GitHub icon -->
+          <a href="#"
+            class="icon-40 sm-butn btn border text-white rounded-circle hover-lightBlue border-lightBlue m-1 p-0 d-inline-flex align-items-center justify-content-center">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
+    </div> <!-- end row -->
+
+    <!-- Bottom copyright text -->
+    <div class="text-center mt-30">
+      <div class="small">
+        <span class="op-6">© 2025 Copyrights by </span>
+        <a href="#">Evoglad Private Ltd</a>
+        <span class="op-6"> All Rights Reserved.</span>
+      </div>
+    </div>
+    
+  </div> <!-- end container -->
+</footer>
+
+  <!-- ====== end footer ====== -->
+
+  <!-- ====== start to top button ====== -->
+  <a href="#" class="to_top">
+    <i class="bi bi-chevron-up"></i>
+    <small>top</small>
+  </a>
+  <!-- ====== end to top button ====== -->
+
+  <!-- ====== request ====== -->
+  <script src="assets/js/lib/jquery-3.0.0.min.js"></script>
+  <script src="assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+  <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/lib/wow.min.js"></script>
+  <script src="assets/js/lib/jquery.fancybox.js"></script>
+  <script src="assets/js/lib/lity.js"></script>
+  <script src="assets/js/lib/swiper.min.js"></script>
+  <script src="assets/js/lib/jquery.waypoints.min.js"></script>
+  <script src="assets/js/lib/jquery.counterup.js"></script>
+  <!-- <script src="assets/js/lib/pace.js"></script> -->
+  <script src="assets/js/lib/scrollIt.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

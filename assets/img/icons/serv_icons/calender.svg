@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     width="80" height="80" viewBox="0 0 30 30" xml:space="preserve">
+  <defs>
+    <linearGradient id="blueToSkyblue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="blue" />
+      <stop offset="100%" stop-color="skyblue" />
+    </linearGradient>
+  </defs>
+  <g>
+    <path fill="url(#blueToSkyblue)" d="M28.5,4.854h-5V2.396c0-1.104-0.896-2-2-2s-2,0.896-2,2v2.457h-9V2.396
+      c0-1.104-0.896-2-2-2s-2,0.896-2,2v2.457h-5c-0.829,0-1.5,0.672-1.5,1.5v21.75c0,0.828,0.671,1.5,1.5,1.5h27
+      c0.829,0,1.5-0.672,1.5-1.5V6.354C30,5.524,29.329,4.854,28.5,4.854z M14,11.562v4H9.25v-4H14z M16,11.562h4.75v4H16V11.562z
+      M7.25,11.562v4H3v-4H7.25z M7.25,17.562v3H3v-3H7.25z M9.25,17.562H14v3H9.25V17.562z M14,22.562v4.041H9.25v-4.041H14z
+      M16,22.562h4.75v4.041H16V22.562z M16,20.562v-3h4.75v3H16z M22.75,17.562H27v3h-4.25V17.562z M22.75,15.562v-4H27v4H22.75z
+      M3,22.562h4.25v4.041H3V22.562z M22.75,26.604v-4.041H27v4.041H22.75z"/>
+  </g>
+</svg>
